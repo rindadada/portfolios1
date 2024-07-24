@@ -1,0 +1,504 @@
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 8px;
+    }
+
+    .menu-nav.on {
+        padding-right: 1rem;
+    }
+
+    .menu-nav {
+        padding-right: 1rem;
+    }
+
+    .intro-text {
+        width: 65%;
+    }
+
+    .intro-text .ux-ui {
+        font-size: 6.5rem;
+    }
+
+    main .intro-text .ux-ui-port {
+        font-size: 8.5rem;
+    }
+
+    /* 백그라운드 사진들 */
+    .intro-animation .fade2 {
+        width: 35%;
+    }
+    .intro-animation .fade2 .cloud1{
+        width: 60%;
+        top: -80px;
+        left: 100%;
+    }
+    .intro-animation .fade2 .cloud2 {
+        width: 70%;
+        top: 0;
+        right: 0;
+    }
+
+    .intro-animation .fade2 .cloud3 {
+        width: 70%;
+        top: -86px;
+        left: 240px;
+    }
+    .intro-animation .fade2 .cloud4{
+        width: 75%;
+        top: -30px;
+        left: 1030px;
+    }
+    .intro-animation .fade2 .cloud5{
+        width: 50%;
+        top: -45px;
+        left: 150%;
+    }
+    .intro-animation .fade2 .cloud6{
+        width: 80%;
+        top: 26px;
+        left: 645px;
+    }
+    .intro-animation .land {
+        width: 77%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .intro-animation .up-cloud {
+        width: 90%;
+    }
+
+    /* 자기소개 */
+    main .container .about .about-box .about-inner .about-skill-img {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    /* 웹디자인 */
+    main .container .redesign .redesign-img {
+        width: 35%;
+    }
+
+    main .container .clone-coding .clone-coding-inner .clone-coding-img {
+        width: 35%;
+    }
+    .other-design .other-design-inner .other-top h1 {
+        font-size: 5rem;
+    }
+
+    .other-design .other-design-inner .detail-page .detail-bottom h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 7px;
+    }
+
+    main .intro-text {
+        width: 80%;
+    }
+
+    .intro-animation .human {
+        bottom: 80px;
+        left: 220px;
+    }
+
+    .intro-animation .land {
+        width: 77%;
+    }
+    
+    .intro-animation .fade2 {
+        width: 60%;
+    }
+    .intro-animation .fade2 .cloud1{
+        width: 45%;
+        top: 40px;
+        left: 120%;
+    }
+    .intro-animation .fade2 .cloud2 {
+        width: 43%;
+        top: -50px;
+        right: 0;
+    }
+    .intro-animation .fade2 .cloud3 {
+        width: 50%;
+        top: 40px;left: 170px;
+    }
+    .intro-animation .fade2 .cloud4{
+        width: 30%;
+        top: -30px;
+        left: 430px;
+    }
+    .intro-animation .fade2 .cloud5{
+        width: 40%;
+        top: 4px;
+        left: 80%;
+    }
+    .intro-animation .fade2 .cloud6{
+        width: 50%;
+        top: 85px;
+        left: 460px;
+    }
+
+    .intro-animation .up-cloud {
+        width: 92%;
+    }
+
+    main .container .about .about-box .about-inner .about-skill-img {
+        width: 108%;
+        gap: 5rem;
+    }
+
+    main .container .redesign .redesign-img {
+        width: 45%;
+    }
+
+    /* 클론코딩 */
+    main .container .clone-coding .clone-coding-inner .clone-coding-img {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 6px;
+    }
+
+    header .container1 .menu-nav .menu-ul li {
+        font-size: 2rem;
+    }
+
+    .header-intro .intro-text {
+        width: 80%;
+    }
+    .intro-animation .fade2 {
+        width: 60%;
+    }
+    .intro-animation .fade2 .cloud1{
+        width: 45%;
+        top: 40px;
+        left: 120%;
+    }
+    .intro-animation .fade2 .cloud2 {
+        width: 43%;
+        top: -50px;
+        right: 0;
+    }
+    .intro-animation .fade2 .cloud3 {
+        width: 50%;
+        top: 40px;left: 170px;
+    }
+    .intro-animation .fade2 .cloud4{
+        width: 30%;
+        top: -30px;
+        left: 430px;
+    }
+    .intro-animation .fade2 .cloud5{
+        width: 40%;
+        top: 4px;
+        left: 80%;
+    }
+    .intro-animation .fade2 .cloud6{
+        width: 50%;
+        top: 85px;
+        left: 460px;
+    }
+
+    main .container .about .about-box .about-inner .about-skill-img {
+        width: 120%;
+        gap: 5rem;
+    }
+    main .container .redesign .redesign-img {
+        width: 70%;
+    }
+
+    main .container .redesign .redesign-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .redesign .redesign-text p {
+        text-align: center;
+    }
+
+    main .container .redesign .redesign-text .web-maintext {
+        font-size: 4rem;
+        padding: 1rem 0;
+    }
+
+    main .container .redesign .redesign-text .web-title {
+        font-size: 7rem;
+    }
+
+    main .container .redesign .redesign-text .web-subtext {
+        font-size: 3rem;
+    }
+
+    main .container .redesign .redesign-text .ocn-button {
+        display: flex;
+        justify-content: center;
+    }
+    main .container .redesign .redesign-text .ocn-button .ocn-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 10rem;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0 0 5px #fff;
+        margin-right: 2rem;
+        transition: all .5s;
+    }
+    main .container .redesign .redesign-text .ocn-button .ocn-link a {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    main .container .redesign .redesign-text2 p {
+        text-align: center;
+    }
+    main .container .redesign .redesign-text2 .web-title2{
+        font-size: 7rem;
+    }
+    main .container .redesign .redesign-text2 .web-maintext2 {
+        padding: 1rem 0;
+        font-size: 4rem;
+    }
+
+    main .container .redesign .redesign-text2 .web-title {
+        font-size: 7rem;
+    }
+
+    main .container .redesign .redesign-text2 .web-subtext2 {
+        font-size: 3rem;
+    }
+
+    .nene-button {
+        display: flex;
+        justify-content: center;
+    }
+    main .container .redesign .redesign-text2 .nene-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 10rem;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0 0 5px #fff;
+        margin-right: 2rem;
+        transition: all .5s;
+    }
+    
+    main .container .redesign .redesign-text2 .nene-link a {
+        font-family: 'SBAggroB';
+        font-size: 3rem;
+    }
+    main .container .clone-coding .clone-coding-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .clone-coding .clone-coding-inner p {
+        text-align: center;
+    }
+
+    .clone-coding .clone-coding-inner .clone-coding-text .cod-maintext {
+        padding: 1rem 0;
+        font-size: 4rem;
+    }
+
+    .clone-coding .clone-coding-inner .clone-coding-text .cod-title {
+        font-size: 7rem;
+    }
+
+    .clone-coding .clone-coding-inner .clone-coding-text .cod-subtext {
+        font-size: 3rem;
+    }
+
+    main .container .clone-coding .clone-coding-text .kfc-button {
+        display: flex;
+        justify-content: center;
+    }
+    main .container .clone-coding .clone-coding-text .kfc-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;   
+        height: 10rem;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0 0 5px #fff;
+        margin-right: 2rem;
+        transition: all .5s;
+    }
+    
+    main .container .clone-coding .clone-coding-text .kfc-link a {
+        font-family: 'SBAggroB';
+        font-size: 3rem;
+    }
+    main .container .clone-coding .clone-coding-inner .clone-coding-img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        font-size: 5px;
+    }
+    header .container1 .menu-nav .menu-ul {
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    main .container .about .about-box .about-inner .about-minibox{
+        margin: 0 auto;
+    }
+    main .container .about .about-box .about-inner .name{
+        text-align: center;
+    }
+    main .container .about .about-box .about-inner .minitext{
+        text-align: center;
+    }
+    main .intro-text{
+        padding-top: 30rem;
+    }
+    .intro-animation .up-cloud {
+        top: 15%;
+        width: 100%;
+    }
+    .intro-animation .land {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .intro-animation .fade2 {
+        width: 40%;
+    }
+
+    .intro-animation .fade2 .cloud1 {
+        top: -3%;
+        left: 30%;
+        width: 100%;
+    }
+
+    .intro-animation .fade2 .cloud2 {
+        top: -13%;
+        left: 3%;
+        width: 100%;
+    }
+
+    .intro-animation .fade2 .cloud3 {
+        top: -5%;
+        left: 70%;
+        width: 100%;
+    }
+
+    .intro-animation .fade2 .cloud4 {
+        top: -5rem;
+        left: 40%;
+        width: 100%;
+    }
+
+    .intro-animation .fade2 .cloud5 {
+        top: -12%;
+        left: 55%;
+        width: 100%;
+    }
+
+    .intro-animation .fade2 .cloud6 {
+        left: 147%;
+        width: 100%;
+    }
+
+    .intro-animation .human {
+        top: 690px;
+        left: 110px;
+        width: 10%;
+    }
+
+    .about-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-inner .about-left {
+        display: block;
+    }
+
+    main .intro-text .ux-ui {
+        text-align: left;
+    }
+    main .container .about .about-box .about-inner .about-minibox{
+        display: flex;
+        justify-content: center;
+    }
+    main .container .about .about-box .about-inner .about-right {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    main .container .about .about-box .about-inner .about-skill-img {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    main .container .about {
+        display: flex;
+        align-items: center;
+    }
+
+    main .container .about .about-box {
+        height: 130rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    main .container .app-design .area .app-area .app-slide .swiper-wrapper .swiper-slide .phone{
+        width: 100%;
+    }
+    
+    .other-design .other-design-inner .other-top h1{
+        text-align: center;
+    }
+    .other-design .other-design-inner .detail-page .detail-bottom h1{
+        text-align: center;
+    }
+    .go-top {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-color: #333;
+        position: fixed;
+        right: 25px;
+        bottom: 35px;
+        display: none;
+    }
+}
+@media screen and (max-width: 375px){
+    .intro-animation .human{
+        top: 710px;
+        left: 110px;
+        width: 10%;
+    }
+    .other-design .other-design-inner .other-design-box .design-box{
+        width: 20rem;
+        height: 20rem;
+    }
+    .other-design .other-design-inner .other-design-box{
+        width: 70rem;
+    }
+    .other-design .other-design-inner .detail-page .detail-box{
+        width: 20rem;
+        height: 20rem;
+    }
+    .other-design .other-design-inner .detail-page .detail-inner{
+        width: 70rem;
+    }
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js" defer></script>
+
+    <style>
+        /* 움직이는 텍스트 */
+        .animated-title {
+            font-size: 18rem;
+            font-family: 'SEBANG-bold';
+            color: #FECF41;
+            font-weight: 300;
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            padding: 50px 0;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .animated-title .track {
+            white-space: nowrap;
+            will-change: transform;
+            animation: marquee 8s linear infinite;
+        }
+
+        @keyframes marquee {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        @media (hover: hover) and (min-width: 700px) {
+            .animated-title .content {
+                -webkit-transform: translateY(calc(62% - 15rem));
+                transform: translateY(calc(75% - 15rem));
+            }
+        }
+
+        .animated-title .content span {
+            color: transparent;
+            -webkit-text-stroke: 2px #FECF41;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="box1">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/피그마로고.png" alt="로고">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="menu1">
+                        <li><a href="#">메뉴</a></li>
+                        <li><a href="#">매장안내</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">창업안내</a></li>
+                        <li><a href="#">네네치킨 소개</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <ul class="menu2">
+                <li><a href="#">
+                        <p>로그인</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>회원가입</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>온라인주문</p>
+                    </a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="visual">
+            <div class="visualslide">
+                <div class="slide1"></div>
+                <div class="slide2"></div>
+                <div class="slide3"></div>
+                <div class="slide4"></div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="inner">
+                <h1 class="bestmenu">네네치킨 BEST MENU</h1>
+                <h3 class="sub-bestmenu">네네에서 가장 인기있는 메뉴들을 만나보세요! </h3>
+                <div class="slider">
+                    <div class="swiper menu-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-one.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-two.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-three.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-four.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-five.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-six.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-seven.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-eight.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/menu/menu-nine.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="startup">
+            <div class="startup-inner">
+                <h1 class="startup-maintext">창업안내</h1>
+                <p class="startup-subtext">“한 가맹점주를 만났는데, 장사가 잘돼서 <br>
+                    집도 사고 자식들 유학까지 보냈다고 자랑을 했어요. <br>
+                    3000만 원으로 창업한 분이죠. 어쩌면 소소한,<br>
+                    하지만 확실한 점주들의 ‘성공신화’를 들을 때 <br>
+                    가장 보람을 느낍니다.”</p>
+                <img class="startup-img" src="images/startup/startup-chicken.png" alt="">
+            </div>
+        </div>
+        <div class="animated-title">
+            <div class="track">
+                <div class="content">&nbsp;HAPPY&nbsp;<span>CHOICE !</span>&nbsp;HAPPY&nbsp;<span>CHOICE
+                        !</span>&nbsp;HAPPY&nbsp;<span>CHOICE !</span>&nbsp;HAPPY&nbsp;<span>CHOICE
+                        !</span>&nbsp;HAPPY&nbsp;<span>CHOICE !</span>&nbsp;HAPPY&nbsp;<span>CHOICE
+                        !</span>&nbsp;HAPPY&nbsp;<span>CHOICE !</span>&nbsp;HAPPY&nbsp;<span>CHOICE !</span>
+                </div>
+            </div>
+        </div>
+        <div class="event">
+            <div class="event-inner">
+                <h1>EVENT</h1>
+                <p>일주일 내내,치킨은 네네<br>
+                    네네치킨의 다양한 이벤트
+                </p>
+                <div class="event-card">
+                    <img class="cardone" src="images/event/Curves 1.png" alt="">
+                    <img class="cardtwo" src="images/event/Curves 1 copy1.png" alt="">
+                    <img class="cardthree" src="images/event/Curves 1 copy 2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footerone">
+            <div class="footerlogo"> <img src="images/normal_logo 1.png" alt=""> </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <iframe class="youone" width="550" height="350"
+                            src="https://www.youtube.com/embed/-A3wWhieApg?si=LnD_ML2i0DM-UtBN"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe class="youtwo" width="550" height="350"
+                            src="https://www.youtube.com/embed/Qxvw_C-YZmk?si=HCuhzQPIQr64E3p4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe class="youthree" width="550" height="350"
+                            src="https://www.youtube.com/embed/kK5VuD1Y0Zk?si=aJj1dfRGkKYLV82v"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe class="you1" width="550" height="350"
+                            src="https://www.youtube.com/embed/i1W_xJVHzbE?si=99Yo-lKfJiFhy0ZP"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe class="you2" width="550" height="350"
+                            src="https://www.youtube.com/embed/yPUm1MqsxxM?si=mX0LGXMNjaxIHu7O"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                        <iframe class="you3" width="550" height="350"
+                            src="https://www.youtube.com/embed/wTqL72ASlyg?si=4Tkgo1hzjTHfCnFp"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footertwo">
+                <div class="flow-container">
+                    <div class="flow-text">
+                        <div class="flow-wrap">Nenechicken YouTube Nenechicken YouTube </div>
+                        <div class="flow-wrap">Nenechicken YouTube Nenechicken YouTube</div>
+                        <div class="flow-wrap">Nenechicken YouTube Nenechicken YouTube </div>
+                        <div class="flow-wrap">Nenechicken YouTube Nenechicken YouTube </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerthree">
+                <img src="images/로고 1.png" alt="#">
+                <p class="footertext1">
+                    서울특별시 도봉구 노해로 391 네네빌딩 (우) 01415
+                </p>
+                <p class="footertext2">
+                    상호명 (주)혜인식품 | 사업자등록번호 127-81-96998 | 대표자명 현철호, 현광식
+                </p>
+                <p class="footertext3">
+                    TEL 02-930-6665 | 업무시간 : 09:00~18:00 (점심시간 12:00~13:00)
+                </p>
+                <p class="footertext4">
+                    FAX 02-6918-6152
+                </p>
+                <p class="footertext5">
+                    EMAIL  cs@nenechicken.com 
+                </p>
+                <div class="imges4">
+                    <img class="imges1" src="images/instargram_icon 1.png" alt="#">
+                    <img src="images/blog_icon 1.png" alt="#">
+                    <img src="images/facebook_icon 1.png" alt="#">
+                    <img src="images/youtube_icon 1.png" alt="#">
+                </div>
+                <img class="imges2" src="images/네네 사진 1.png" alt="#">
+            </div>
+    </footer>
+    <script>
+        var swiper = new Swiper(".menu-swiper", {
+            slidesPerView: 4,
+            spaceBetween: 5,
+        });
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: '3',
+            autoplay: {
+                delay: 6000,
+            },
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

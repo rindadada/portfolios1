@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+검색 엔진 전부 허용
+
+User-agent: *
+Disallow: /
+User-agent: Yeti
+Allow: /
+
+네이버(Yeti)만 허용하고 나머지 구글 등은 거부
+
+Yeti(naver) Googlebot(구글) Daumoa(daum)
