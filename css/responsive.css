@@ -470,6 +470,20 @@
     .other-design .other-design-inner .detail-page .detail-bottom h1{
         text-align: center;
     }
+    .other-design .other-design-inner .other-design-box .design-box{
+        width: 20rem;
+        height: 20rem;
+    }
+    .other-design .other-design-inner .other-design-box{
+        width: 70rem;
+    }
+    .other-design .other-design-inner .detail-page .detail-box{
+        width: 20rem;
+        height: 20rem;
+    }
+    .other-design .other-design-inner .detail-page .detail-inner{
+        width: 70rem;
+    }
     .go-top {
         width: 40px;
         height: 40px;
